@@ -1,4 +1,4 @@
-# CodePush-
+# CodePush
 本文章仅翻译
 [原文地址](https://microsoft.github.io/code-push/docs/cli.html)
 #安装
