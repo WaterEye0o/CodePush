@@ -1,25 +1,30 @@
-
 [TOC]
 
-## CodePush
+
+##CodePush
 本文章仅翻译
 [原文地址](https://microsoft.github.io/code-push/docs/cli.html)
 
 
-##安装
+###安装
 安装 node.js
 安装 CodePush CLI:
 ```
 npm install -g code-push-cli 
 ```
-##开始使用
+
+
+
+###开始使用
 1. 创建一个CodePush账号来使用CodePush CLI
 * 将你的app注册进Codepush当中，并且可以将它分享给你团队的其他人
 * 将Codepush（cordova或者react native）的依赖配置进你的app当中
 * 发布或者更新一个你的app
 * 祝愿它长期有用，并且越来越好
 
-##创建账号
+
+
+###创建账号
 在你开始发布和更新一个app时你需要先创建一个CodePush账号。你可以跑下面的这行代码来注册你的app（在用之前确保你安装了code-push-cli）
 ```
 code-push register
@@ -34,7 +39,9 @@ code-push link
 ```
 在跑这个命令行的时候需要主要你的邮箱地址必须与你的已经存在的账号匹配上。
 
-##授权
+
+
+###授权
 大部分的CodePush CLI命令都是需要授权，因此在你开始管理你的账号之前，你需要使用GitHub或者微软账号登录。你可以使用下面的命令来登录：
 ``` 
 code-push login 
